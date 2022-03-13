@@ -22,7 +22,7 @@ const SampleComponent: React.FC = (): JSX.Element => {
     
     useEffect(() => {
         if (elRefs) console.log(getCurrents());
-    }, [ getCurrents ]);
+    }, [ elRefs, getCurrents ]);
     
     return (
         <div class = 'container'>
