@@ -53,9 +53,7 @@ const SampleComponent: React.FC = (): JSX.Element => {
     
     return (
         <div class = 'container'>
-            <div class = 'children' ref = {firstChild} />
-            <div class = 'children' ref = {secondChild} />
-            <div class = 'children' ref = {thirdChild} />
+            If component mount: {isMount}
         </div>
     );    
 };
