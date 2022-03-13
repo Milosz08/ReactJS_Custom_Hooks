@@ -7,7 +7,7 @@ documentation below. Hooks written with TypeScript.
 
 ---
 
-* `useMultipleRef()` - this is an improved useRef hook that allows you to create multiple references with a function.
+* `useMultipleRefs()` - this is an improved useRef hook that allows you to create multiple references with a function.
 Passing count of referential elements to will be created by hook and returned object with referential objects
 array and function returned all currents of this referential's in separate array.
 
