@@ -49,7 +49,7 @@ const SampleComponent: React.FC = (): JSX.Element => {
     useEffect(() => {
         if (isMount) console.log('I am mounted first time!');
         else console.log('This is my next mounting!');
-    }, []);
+    }, [ isMount ]);
     
     return (
         <div class = 'container'>
