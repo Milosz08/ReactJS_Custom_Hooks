@@ -60,4 +60,3 @@ const SampleComponent: React.FC = (): JSX.Element => {
     );    
 };
 ```
----
